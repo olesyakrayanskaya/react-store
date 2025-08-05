@@ -1,7 +1,22 @@
 .sidebar {
-    position: absolute;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    min-width: 3rem;
+}
+
+.sidebar__title {
+
+}
+
+.sidebar__menu {
+
+}
+
+.sidebar__item {
+
+}
+
+.sidebar__link {
+
+}
+
+.sidebar__link_active {
+    
 }

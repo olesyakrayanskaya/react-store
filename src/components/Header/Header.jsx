@@ -2,20 +2,16 @@ import React from 'react'
 import styles from './Header.module.css'
 import { ROUTES } from '../../utils/routes'
 import { Link } from 'react-router-dom'
-import LOGO from '../../assets/images/logo.svg'
 import AVATAR from '../../assets/images/avatar.svg'
 import SEARCH from '../../assets/images/search.svg'
 import CART from '../../assets/images/cart.svg'
 import FAVORITE from '../../assets/images/favorite.svg'
+import Logo from '../Logo/Logo'
 
 function Header() {
   return (
     <header className={styles.header}>
-      <Link to={ROUTES.HOME}>
-        <div className={`${styles.header__logo} ${styles.logo}`}>
-          <img className={styles.logo__img} src={LOGO} alt="logo" />
-        </div>
-      </Link>
+      <Logo />
       <div className={styles.header__inner}>
         <form className={styles.header__form}>
           <div className={`${styles.header__search_wrapper}`}>
